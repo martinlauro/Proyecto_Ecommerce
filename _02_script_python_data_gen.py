@@ -150,4 +150,5 @@ df_clientes.to_csv('dim_cliente.csv', index=False)
 df_ventas.to_csv('fact_venta.csv', index=False)
 df_envios.to_csv('fact_envio.csv', index=False)
 
+
 print("¡Archivos CSV generados con éxito!")
